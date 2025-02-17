@@ -1,8 +1,7 @@
-# Hi there, I'm [Your Name] 👨💻  
+# Hi there, I'm Alan 👨💻  
 *Game Engine & Graphics Programmer passionate about rendering tech, AI systems, and performance-oriented architecture.*  
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View_Projects-%23FF6B6B)](https://yourportfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2)](www.linkedin.com/in/nianzhi-li)
 
 ---
 
