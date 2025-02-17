@@ -1,67 +1,90 @@
-# Hi there, I'm Alan Li 👋  
-*Passionate game programmer specializing in AI, system architecture, and clean code practices.*  
+# Hi there, I'm [Your Name] 👨💻  
+*Game Engine & Graphics Programmer passionate about rendering tech, AI systems, and performance-oriented architecture.*  
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Projects-%23FF6B6B)](https://yourportfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2)](https://linkedin.com/in/yourprofile)
 
 ---
 
-## 🔥 Featured Projects  
+## 🚀 Featured Projects
 
-### 🧠 **AI & Game Systems**  
-| Project | Description | Tech |  
-|---------|-------------|------|  
-| [**Hide-and-Seek AI Demo**](https://github.com/comedianhhh/HideAndSeek-AI-demo) | Type-safe FSM with A* pathfinding | `C#` `Unity` `A* Pathfinding` |  
-| [**Steering Behaviors**](https://github.com/comedianhhh/SteeringBehaiour) | Modular seek/flee/arrive/wander logic | `C#` `Unity` |  
-| [**AI Behavior Tree Demo**](https://github.com/comedianhhh/AI_BehaviourTree-Demo) | Behavior tree implementation | `C#` `Unity` |  
+### 🎮 **Game Engines & Architecture**
+| Project | Highlights | Tech |
+|---------|------------|------|
+| [**Computer Graphics Demo**](https://github.com/comedianhhh/ComputerGraphicsDemo) | HLSL shaders, Post-processing effects | `C#` `MonoGame` `HLSL` |
+| [**2D C++ Engine**](https://github.com/GDAP-2023/PROG50016-lab5) | Custom SDL2-based engine | `C++` `SDL2` |
+| [**A* Pathfinding**](https://github.com/comedianhhh/AstarPathFinding) | Custom grid-based implementation | `C#` `Unity` |
 
-### 🎮 **Full Game Projects**  
-| Project | Description | Tech |  
-|---------|-------------|------|  
-| [**Pokémon Look-Up**](https://github.com/comedianhhh/Pokemon-Look-Up) | Location/weather-based catching + PlayFab backend | `C#` `Unity` `PlayFab` |  
-| [**Dungeon CEO**](https://store.steampowered.com/app/3189680/Dungeon_CEO/) | Victorian dungeon management sim | `C#` `Unity` |  
-| [**SoulStoneSurvivorLike**](https://github.com/comedianhhh/SoulStoneSurvivorLike) | Design pattern showcase (Command, State, Event Bus) | `C#` `Unity` |  
+### 🎮 **Complete Games**
+| Project | Description | Tech Stack |  
+|---------|-------------|------------|
+| [**Dungeon CEO**](https://store.steampowered.com/app/3189680/Dungeon_CEO/) | Victorian dungeon management sim | `C#` `Unity` `ShaderGraph` |
+| [**Pokémon Look-Up**](https://github.com/comedianhhh/Pokemon-Look-Up) | Location-based catching + PlayFab | `C#` `Unity` `PlayFab` |
+| [**Lucid Dream**](https://teamnightcreature.itch.io/luciddream) | 3D puzzle game (20-day jam) | `C#` `Unity` |
 
-### 🛠️ **Engine & Tools**  
-| Project | Description | Tech |  
-|---------|-------------|------|  
-| [**2D C++ Game Engine**](https://github.com/GDAP-2023/PROG50016-lab5) | Custom engine with SDL2 | `C++` `SDL2` |  
-| [**Lucid Dream**](https://teamnightcreature.itch.io/luciddream) | 3D puzzle game (20-day game jam) | `C#` `Unity` |  
+
+### 🤖 **AI & Game Systems**
+| Project | Features | Tech |
+|---------|----------|------|
+| [**Hide-and-Seek AI**](https://github.com/comedianhhh/HideAndSeek-AI-demo) | Type-safe FSM, A* Pathfinding | `C#` `Unity` |
+| [**Steering Behaviors**](https://github.com/comedianhhh/SteeringBehaiour) | Seek/Flee/Arrive/Wander | `C#` `Unity` |
+| [**FSM AI Demo**](https://github.com/comedianhhh/FSM-AI-demo) | NavMesh integration | `C#` `Unity` |
+
+### 🌌 **Graphics & Rendering**
+| Project | Features | Tech |
+|---------|----------|------|
+| [**Space Invader Clone**](https://github.com/comedianhhh/SpaceInvader_local) | JSON-configurable entities | `C++` `OOP` |
+| [**Shader Showcase**](https://github.com/comedianhhh/ComputerGraphicsDemo) | Post-processing stack, Normal mapping | `HLSL` `Render Targets` |
 
 ---
 
-## 🧰 Tech Stack  
-**Languages**:  
+## 🔧 **Core Technical Stack**
+
+**Languages**  
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-17-%2300599C?logo=c%2B%2B)
+![HLSL](https://img.shields.io/badge/HLSL-Developer%20Mode-%235E5E5E)
 
-**Engines & Tools**:  
-![Unity](https://img.shields.io/badge/Unity-000000?logo=unity&logoColor=white)
-![Unreal](https://img.shields.io/badge/Unreal-0E1128?logo=unreal-engine&logoColor=white)
-![PlayFab](https://img.shields.io/badge/PlayFab-F15A29?logo=playfab&logoColor=white)
+**Engines & Frameworks**  
+![Unity](https://img.shields.io/badge/Unity-2022+-black?logo=unity)
+![MonoGame](https://img.shields.io/badge/MonoGame-3.8-%237A1C4C)
+![SDL2](https://img.shields.io/badge/SDL2-2.24-%23ED1C24)
 
-**Interests**:  
-`AI Behavior Trees` `Multiplayer Netcode` `Shader Programming` `ECS Architecture`
-
----
-
-## 📈 GitHub Stats  
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=comedianhhh&show_icons=true&theme=radical)  
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=comedianhhh&layout=compact&theme=radical)  
+**Specializations**  
+`Rendering Pipelines` `Shader Programming` `AI Architecture` `ECS/DOTS` `Performance Optimization`
 
 ---
 
-## 🚀 What I'm Currently Learning  
-- **Unity DOTS/ECS** for high-performance AI simulations  
-- **ML-Agents** for adaptive NPC behaviors  
-- **WebAssembly** with Unity for browser-based demos
-- **Data Analytics**
-- ** Machine Learning**
+## 📊 GitHub Activity
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=comedianhhh&show_icons=true&theme=radical&hide_title=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=comedianhhh&layout=compact&theme=radical)
 
 ---
 
-## 💬 Connect  
-Let's talk game dev! Reach out for:  
-- Collaborative projects  
-- Technical discussions (AI/architecture)  
-- Job opportunities  
+## 🔭 Current Focus
+- **Advanced Rendering**: Implementing PBR materials in HLSL
+- **AI Research**: Exploring utility-based AI for strategy games
+- **Performance**: Optimizing ECS architectures for VR projects
+- **Tooling**: Developing custom shader debug visualization tools
+
+---
+
+## 🏆 Recent Achievement
+**[Computer Graphics Demo](https://github.com/comedianhhh/ComputerGraphicsDemo)**  
+*Implemented real-time post-processing effects including:*
+- Dynamic wave distortion (`amplitude`/`frequency` control)
+- Multi-pass rendering pipeline
+- Material system with normal/specular mapping
+- Interactive parameter tuning via WinForms UI
+
+---
+
+## 📫 Let's Connect
+- 💼 **Open to**: Graphics programming roles, engine development positions
+- 🎮 **Passionate About**: Rendering tech, AI systems, performance-critical code
+- 📧 **Email**: your.email@domain.com
+- 🐦 **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+
+*"From low-level graphics to high-level AI - let's build immersive worlds together!"* 🌍✨
