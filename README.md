@@ -36,6 +36,13 @@
 | [**Space Invader Clone**](https://github.com/comedianhhh/SpaceInvader_local) | JSON-configurable entities | `C++` `OOP` |
 | [**Shader Showcase**](https://github.com/comedianhhh/ComputerGraphicsDemo) | Post-processing stack, Normal mapping | `HLSL` `Render Targets` |
 
+### 🕹️ **Multiplayer & Networking**
+| Project | Highlights | Tech |
+|---------|------------|------|
+| [**Space Shooter MP**](https://github.com/comedianhhh/SpaceShooterMP) | Custom C++ engine, Client-server model, Client-side prediction | `C++17` `Asio` `UDP` |
+
+---
+
 ---
 
 ## 🔧 **Core Technical Stack**
@@ -44,6 +51,10 @@
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-17-%2300599C?logo=c%2B%2B)
 ![HLSL](https://img.shields.io/badge/HLSL-Developer%20Mode-%235E5E5E)
+
+**Networking**  
+![Asio](https://img.shields.io/badge/Asio-1.22-%2300A8E1)
+![UDP](https://img.shields.io/badge/Protocol-UDP-%230078D7)
 
 **Engines & Frameworks**  
 ![Unity](https://img.shields.io/badge/Unity-2022+-black?logo=unity)
