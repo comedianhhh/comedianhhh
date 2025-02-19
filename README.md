@@ -41,6 +41,7 @@
 | Project | Highlights | Tech |
 |---------|------------|------|
 | [**Space Shooter MP**](https://github.com/comedianhhh/SpaceShooterMP) | Custom C++ engine, Client-server model, Client-side prediction | `C++17` `Asio` `UDP` |
+| [**Realm of Titan**](https://github.com/ThatDNS/TitansOfTheRealm) | Unity Multiplayer VR game(PC player VS VR player) | `C#` `Networking` `VR` `AI`|
 
 ---
 
@@ -63,7 +64,7 @@
 ![SDL2](https://img.shields.io/badge/SDL2-2.24-%23ED1C24)
 
 **Specializations**  
-`Rendering Pipelines` `Shader Programming` `AI Architecture` `ECS/DOTS` `Performance Optimization`
+`Rendering Pipelines` `Shader Programming` `AI Architecture` `ECS/DOTS` `Performance Optimization` `Linear algebra`
 
 ---
 
