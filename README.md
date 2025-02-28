@@ -30,6 +30,7 @@
 | [**Hide-and-Seek AI**](https://github.com/comedianhhh/HideAndSeek-AI-demo) | Type-safe FSM, A* Pathfinding | `C#` `Unity` |
 | [**Steering Behaviors**](https://github.com/comedianhhh/SteeringBehaiour) | Seek/Flee/Arrive/Wander | `C#` `Unity` |
 | [**FSM AI Demo**](https://github.com/comedianhhh/FSM-AI-demo) | NavMesh integration | `C#` `Unity` |
+| [**Behaviour Tree AI Demo**](https://github.com/comedianhhh/AI_BehaviourTree-Demo)| Enemy Partrol and Find | `C#` `Unity` |
 
 ### 🌌 **Graphics & Rendering**
 | Project | Features | Tech |
