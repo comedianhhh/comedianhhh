@@ -14,7 +14,7 @@
 |---------|------------|------|
 | [**Computer Graphics Demo**](https://github.com/comedianhhh/ComputerGraphicsDemo) | HLSL shaders, Post-processing effects | `C#` `MonoGame` `HLSL` |
 | [**2D C++ Engine**](https://github.com/GDAP-2023/PROG50016-lab5) | Custom SDL2-based engine | `C++` `SDL2` |
-| [**A* Pathfinding**](https://github.com/comedianhhh/AstarPathFinding) | Custom grid-based implementation | `C#` `Unity` |
+| [**A Star Pathfinding**](https://github.com/comedianhhh/AstarPathFinding) | Custom grid-based implementation | `C#` `Unity` |
 
 ### 🎮 **Complete Games**
 | Project | Description | Tech Stack |  
