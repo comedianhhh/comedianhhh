@@ -22,6 +22,8 @@
 | [**Dungeon CEO**](https://store.steampowered.com/app/3189680/Dungeon_CEO/) | Victorian dungeon management sim | `C#` `Unity` `ShaderGraph` |
 | [**Pokémon Look-Up**](https://github.com/comedianhhh/Pokemon-Look-Up) | Location-based catching + PlayFab | `C#` `Unity` `PlayFab` |
 | [**Lucid Dream**](https://teamnightcreature.itch.io/luciddream) | 3D puzzle game (20-day jam) | `C#` `Unity` |
+| [**Slayer**](https://github.com/comedianhhh/Slayer) | Action combat game with dynamic gameplay | `C#` `Unity` |
+| [**Traveller's Quest**](https://github.com/comedianhhh/TravellersQuest) | Adventure RPG with exploration mechanics | `C#` `Unity` |
 
 
 ### 🤖 **AI & Game Systems**
