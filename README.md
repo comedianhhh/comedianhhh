@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2)](https://www.linkedin.com/in/nianzhi-li)
 
 ---
-[![Website](https://img.shields.io/badge/Website-Check-%230A321)](https://alan996.myportfolio.com/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Check-%230A321)](https://alan996.myportfolio.com/)
 
 
 ## 🚀 Featured Projects
