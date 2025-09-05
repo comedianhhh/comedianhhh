@@ -3,7 +3,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2)](https://www.linkedin.com/in/nianzhi-li)
 
-[![Website](https://img.shields.io/badge/Website-Check-%230A321)](https://comedianhhh.github.io/developerFolio/)
+[![Website](https://alan996.myportfolio.com/)
 
 ---
 
