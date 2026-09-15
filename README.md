@@ -1,104 +1,40 @@
-# Hi there, I'm Alan 👨💻  
-*Game Engine & Graphics Programmer passionate about rendering tech, AI systems, and performance-oriented architecture.*  
+# Hi, I'm Alan (Nianzhi Li)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2)](https://www.linkedin.com/in/nianzhi-li)
+Software engineer in Toronto — backend, full stack, and the runtime side of AI agents.
+Founding engineer and Technical Team Lead at [Daedalia](https://speedrun.a16z.com/companies/soullink) (a16z speedrun Cohort 005), where I ship the character runtime behind **SoulLink**, a live AI companion on iOS and Android.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nianzhi--li-%230A66C2?logo=linkedin)](https://www.linkedin.com/in/nianzhi-li)
+[![Portfolio](https://img.shields.io/badge/Portfolio-comedianhhh.github.io-%23111?logo=github)](https://comedianhhh.github.io/Portfolio/)
 
+## Open source
 
-## 🚀 Featured Projects
+**[job-agent-skills](https://github.com/comedianhhh/job-agent-skills)** — a job-search toolkit for coding agents (MIT). Ten Claude Code skills built around one rule: every line that goes out traces to a fact you wrote down.
+[![CI](https://github.com/comedianhhh/job-agent-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/comedianhhh/job-agent-skills/actions/workflows/ci.yml)
 
-### 🎮 **Game Engines & Architecture**
-| Project | Highlights | Tech |
-|---------|------------|------|
-| [**Computer Graphics Demo**](https://github.com/comedianhhh/ComputerGraphicsDemo) | HLSL shaders, Post-processing effects | `C#` `MonoGame` `HLSL` |
-| [**2D C++ Engine**](https://github.com/GDAP-2023/PROG50016-lab5) | Custom SDL2-based engine | `C++` `SDL2` |
-| [**A Star Pathfinding**](https://github.com/comedianhhh/AstarPathFinding) | Custom grid-based implementation | `C#` `Unity` |
+| Part | What it is | Stack |
+|---|---|---|
+| `skills/` | Ten skills — fit analysis, résumé tailoring with a one-page gate, form filling from standing answers, pipeline tracking, contract-based mock interviews, evidence recap | Markdown contracts |
+| `mcp/jobs-mcp` | MCP server over Greenhouse / Lever / Ashby / LinkedIn guest search, no API keys; 43 tests on recorded HTTP fixtures, CI across Python 3.10–3.13 × two MCP SDK majors | Python, httpx |
+| `web/` | Tracker: FastAPI service that edits the agent's own Markdown pipeline cell-by-cell, Postgres for history and scan triage, Next.js kanban with drag-and-drop, bearer auth, Docker Compose | FastAPI, PostgreSQL, Next.js 16 |
+| `evals/` | 21-case `claude plugin eval` suite (110 graders) scoring the skills against a no-plugin baseline, with a fixture persona seeded with traps | regex / tool-use / LLM-judge graders |
 
-### 🎮 **Complete Games**
-| Project | Description | Tech Stack |  
-|---------|-------------|------------|
-| [**Dungeon CEO**](https://store.steampowered.com/app/3189680/Dungeon_CEO/) | Victorian dungeon management sim | `C#` `Unity` `ShaderGraph` |
-| [**Pokémon Look-Up**](https://github.com/comedianhhh/Pokemon-Look-Up) | Location-based catching + PlayFab | `C#` `Unity` `PlayFab` |
-| [**Lucid Dream**](https://teamnightcreature.itch.io/luciddream) | 3D puzzle game (20-day jam) | `C#` `Unity` |
-| [**Slayer**](https://github.com/comedianhhh/Slayer) | Action combat game with dynamic gameplay | `C++` `Unreal` |
-| [**Traveller's Quest**](https://github.com/comedianhhh/TravellersQuest) | Adventure RPG with exploration mechanics | `C++` `Unreal` |
+## Products
 
+| Product | My part | Stack |
+|---|---|---|
+| [**SoulLink**](https://apps.apple.com/us/app/soullink-3d-ai-life-sim/id6752530994) — AI companion, live on iOS / Android | Character runtime: streamed voice + LLM telemetry → lip-sync, look-at, animation state; interaction state machines; lead a 5-engineer team | C#, Unity, LLM runtime |
+| [**Dungeon Company**](https://store.steampowered.com/app/3775930/Dungeon_Company/) — Steam, shown at XP Game Summit, 60,000+ playtest builds distributed | Founding member; schema-driven level tooling and gameplay systems | C#, Unity |
 
-### 🤖 **AI & Game Systems**
-| Project | Features | Tech |
-|---------|----------|------|
-| [**Hide-and-Seek AI**](https://github.com/comedianhhh/HideAndSeek-AI-demo) | Type-safe FSM, A* Pathfinding | `C#` `Unity` |
-| [**Steering Behaviors**](https://github.com/comedianhhh/SteeringBehaiour) | Seek/Flee/Arrive/Wander | `C#` `Unity` |
-| [**FSM AI Demo**](https://github.com/comedianhhh/FSM-AI-demo) | NavMesh integration | `C#` `Unity` |
-| [**Behaviour Tree AI Demo**](https://github.com/comedianhhh/AI_BehaviourTree-Demo)| Enemy Partrol and Find | `C#` `Unity` |
+## Selected systems work
 
-### 🌌 **Graphics & Rendering**
-| Project | Features | Tech |
-|---------|----------|------|
-| [**Space Invader Clone**](https://github.com/comedianhhh/SpaceInvader_local) | JSON-configurable entities | `C++` `OOP` |
-| [**Shader Showcase**](https://github.com/comedianhhh/ComputerGraphicsDemo) | Post-processing stack, Normal mapping | `HLSL` `Render Targets` |
+| Project | Highlights | Stack |
+|---|---|---|
+| [ARPG Demo](https://github.com/comedianhhh/ARPG-Demo) | Authoritative .NET server + Unity client, custom netcode, headless bot load tests, deterministic fixed-point | C#, .NET, Lua |
+| [Space Shooter MP](https://github.com/comedianhhh/SpaceShooterMP) | Custom C++ engine, client-server, client-side prediction | C++17, Asio, UDP |
+| [Computer Graphics Demo](https://github.com/comedianhhh/ComputerGraphicsDemo) | Multi-pass post-processing, normal/specular mapping | C#, MonoGame, HLSL |
 
-### 🕹️ **Multiplayer & Networking**
-| Project | Highlights | Tech |
-|---------|------------|------|
-| [**Space Shooter MP**](https://github.com/comedianhhh/SpaceShooterMP) | Custom C++ engine, Client-server model, Client-side prediction | `C++17` `Asio` `UDP` |
-| [**Realm of Titan**](https://github.com/ThatDNS/TitansOfTheRealm) | Unity Multiplayer VR game(PC player VS VR player) | `C#` `Networking` `VR` `AI`|
+## Stack
 
----
+`Python` `C# / .NET` `TypeScript` `C++` · `FastAPI` `PostgreSQL` `Next.js / React` · `MCP servers` `agent skills & evals` · `Docker` `GitHub Actions` · `Unity`
 
----
-
-## 🔧 **Core Technical Stack**
-
-**Languages**  
-![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-17-%2300599C?logo=c%2B%2B)
-![HLSL](https://img.shields.io/badge/HLSL-Developer%20Mode-%235E5E5E)
-
-**Networking**  
-![Asio](https://img.shields.io/badge/Asio-1.22-%2300A8E1)
-![UDP](https://img.shields.io/badge/Protocol-UDP-%230078D7)
-
-**Engines & Frameworks**  
-![Unity](https://img.shields.io/badge/Unity-2022+-black?logo=unity)
-![MonoGame](https://img.shields.io/badge/MonoGame-3.8-%237A1C4C)
-![SDL2](https://img.shields.io/badge/SDL2-2.24-%23ED1C24)
-
-**Specializations**  
-`Rendering Pipelines` `Shader Programming` `AI Architecture` `ECS/DOTS` `Performance Optimization` `Linear algebra`
-
----
-
-## 📊 GitHub Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=comedianhhh&show_icons=true&theme=radical&hide_title=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=comedianhhh&layout=compact&theme=radical)
-
----
-
-## 🔭 Current Focus
-- **Advanced Rendering**: Implementing PBR materials in HLSL
-- **AI Research**: Exploring utility-based AI for strategy games
-- **Performance**: Optimizing ECS architectures for VR projects
-- **Tooling**: Developing custom shader debug visualization tools
-
----
-
-## 🏆 Recent Achievement
-**[Computer Graphics Demo](https://github.com/comedianhhh/ComputerGraphicsDemo)**  
-*Implemented real-time post-processing effects including:*
-- Dynamic wave distortion (`amplitude`/`frequency` control)
-- Multi-pass rendering pipeline
-- Material system with normal/specular mapping
-- Interactive parameter tuning via WinForms UI
-
----
-
-## 📫 Let's Connect
-- 💼 **Open to**: Graphics programming roles, engine development positions
-- 🎮 **Passionate About**: Rendering tech, AI systems, performance-critical code
-- 📧 **Email**: your.email@domain.com
-- 🐦 **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-
-*"From low-level graphics to high-level AI - let's build immersive worlds together!"* 🌍✨
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=comedianhhh&layout=compact&theme=dark&hide_border=true)
