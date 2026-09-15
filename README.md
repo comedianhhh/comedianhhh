@@ -1,7 +1,7 @@
 # Hi, I'm Alan (Nianzhi Li)
 
 Software engineer in Toronto — backend, full stack, and the runtime side of AI agents.
-Founding engineer and Technical Team Lead at [Daedalia](https://speedrun.a16z.com/companies/soullink) (a16z speedrun Cohort 005), where I ship the character runtime behind **SoulLink**, a live AI companion on iOS and Android.
+Most recently founding engineer and Technical Team Lead at [SoulLink](https://speedrun.a16z.com/companies/soullink) (formerly Daedalia; a16z speedrun Cohort 005), where I built the character runtime behind the **SoulLink** app, a live AI companion on iOS and Android.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nianzhi--li-%230A66C2?logo=linkedin)](https://www.linkedin.com/in/nianzhi-li)
 [![Portfolio](https://img.shields.io/badge/Portfolio-comedianhhh.github.io-%23111?logo=github)](https://comedianhhh.github.io/Portfolio/)
