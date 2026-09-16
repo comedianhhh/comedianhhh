@@ -37,4 +37,4 @@ Most recently founding engineer and Technical Team Lead at [SoulLink](https://sp
 
 `Python` `C# / .NET` `TypeScript` `C++` · `FastAPI` `PostgreSQL` `Next.js / React` · `MCP servers` `agent skills & evals` · `Docker` `GitHub Actions` · `Unity`
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=comedianhhh&layout=compact&theme=dark&hide_border=true)
+
