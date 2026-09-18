@@ -18,6 +18,15 @@ Most recently founding engineer and Technical Team Lead at [SoulLink](https://sp
 | `web/` | Tracker: FastAPI service that edits the agent's own Markdown pipeline cell-by-cell, Postgres for history and scan triage, Next.js kanban with drag-and-drop, bearer auth, Docker Compose | FastAPI, PostgreSQL, Next.js 16 |
 | `evals/` | 21-case `claude plugin eval` suite (110 graders) scoring the skills against a no-plugin baseline, with a fixture persona seeded with traps | regex / tool-use / LLM-judge graders |
 
+**[tsgate](https://github.com/comedianhhh/tsgate)** — identity-aware LLM gateway that runs on a tailnet instead of a public port: callers are identified by the connection (tsnet `WhoIs`), never by a header, and never hold the upstream API key. Go.
+
+### Contributions
+
+| Repo | PR | Status |
+|---|---|---|
+| [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana) (Go) | [#1208](https://github.com/grafana/mcp-grafana/pull/1208) — `go test ./...` failed on Windows: tests exec'd a built CLI without the `.exe` suffix | **merged** |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) (C#) | [#1404](https://github.com/CoplayDev/unity-mcp/pull/1404) — CS0234 with `USE_ROSLYN`: drop the Roslyn Workspaces dependency the installer never ships, add a regression test | in review |
+
 ## Products
 
 | Product | My part | Stack |
