@@ -1,6 +1,6 @@
 # Alan Li
 
-Full-stack engineer in Toronto. I build small products people actually use, and tooling for coding agents. Before that I worked in Unity and C#: I led the embodied-agent runtime team at [SoulLink](https://speedrun.a16z.com/companies/soullink), an a16z speedrun company, and wrote netcode for a multiplayer action RPG.
+Full-stack engineer in Toronto. I build small products people actually use, and tooling for coding agents. Before that I worked in Unity and Unreal: I led the embodied-agent runtime team at [SoulLink](https://speedrun.a16z.com/companies/soullink), an a16z speedrun company, and wrote netcode for a multiplayer action RPG.
 
 [Portfolio](https://comedianhhh.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/nianzhi-li)
 
