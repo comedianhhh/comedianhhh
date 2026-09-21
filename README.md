@@ -1,47 +1,25 @@
-# Hi, I'm Alan (Nianzhi Li)
+# Alan Li
 
-Software engineer in Toronto — backend, full stack, and the runtime side of AI agents.
-Most recently founding engineer and Technical Team Lead at [SoulLink](https://speedrun.a16z.com/companies/soullink) (formerly Daedalia; a16z speedrun Cohort 005), where I built the character runtime behind the **SoulLink** app, a live AI companion on iOS and Android.
+Full-stack engineer in Toronto. I build small products people actually use, and tooling for coding agents. Before that I led the embodied-agent runtime team at [SoulLink](https://speedrun.a16z.com/companies/soullink), an a16z speedrun company.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nianzhi--li-%230A66C2?logo=linkedin)](https://www.linkedin.com/in/nianzhi-li)
-[![Portfolio](https://img.shields.io/badge/Portfolio-comedianhhh.github.io-%23111?logo=github)](https://comedianhhh.github.io/Portfolio/)
+[Portfolio](https://comedianhhh.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/nianzhi-li)
 
-## Open source
+## Things I made
 
-**[job-agent-skills](https://github.com/comedianhhh/job-agent-skills)** — a job-search toolkit for coding agents (MIT). Ten Claude Code skills built around one rule: every line that goes out traces to a fact you wrote down.
-[![CI](https://github.com/comedianhhh/job-agent-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/comedianhhh/job-agent-skills/actions/workflows/ci.yml)
+- **[job-agent-skills](https://github.com/comedianhhh/job-agent-skills)** — a job-search toolkit for coding agents: skills, an MCP server over the big job boards, a tracker, an eval suite. It only writes facts you wrote. [![CI](https://github.com/comedianhhh/job-agent-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/comedianhhh/job-agent-skills/actions/workflows/ci.yml)
+- **[tsgate](https://github.com/comedianhhh/tsgate)** — an LLM gateway with no public port and no keys to hand out: who you are is the Tailscale connection, and every request leaves an audit line. Go.
+- **[bloub tarot](https://bloub-tarot.alan996.workers.dev)** · **[bloub board](https://bloub-board.alan996.workers.dev)** · **[bloub-react](https://github.com/comedianhhh/bloub-react)** — a black ball that changes shape, and two small things built around it.
 
-| Part | What it is | Stack |
-|---|---|---|
-| `skills/` | Ten skills — fit analysis, résumé tailoring with a one-page gate, form filling from standing answers, pipeline tracking, contract-based mock interviews, evidence recap | Markdown contracts |
-| `mcp/jobs-mcp` | MCP server over Greenhouse / Lever / Ashby / LinkedIn guest search, no API keys; 43 tests on recorded HTTP fixtures, CI across Python 3.10–3.13 × two MCP SDK majors | Python, httpx |
-| `web/` | Tracker: FastAPI service that edits the agent's own Markdown pipeline cell-by-cell, Postgres for history and scan triage, Next.js kanban with drag-and-drop, bearer auth, Docker Compose | FastAPI, PostgreSQL, Next.js 16 |
-| `evals/` | 21-case `claude plugin eval` suite (110 graders) scoring the skills against a no-plugin baseline, with a fixture persona seeded with traps | regex / tool-use / LLM-judge graders |
+## Elsewhere
 
-**[tsgate](https://github.com/comedianhhh/tsgate)** — an LLM gateway with no public port and no keys to hand out. It lives on a Tailscale tailnet, so who you are is the connection itself; the one real key stays in one process, every request leaves an audit line, and when a caller hangs up, the model stops talking — and stops billing. Go.
+- [CoplayDev/unity-mcp#1404](https://github.com/CoplayDev/unity-mcp/pull/1404) — turning on its Roslyn option broke the build. Removed the missing dependency and added a test so it stays out. C#, merged.
+- [grafana/mcp-grafana#1208](https://github.com/grafana/mcp-grafana/pull/1208) — its tests couldn't run on Windows. Fixed; merged the same day. Go.
 
-### Elsewhere
+## Shipped
 
-- Made Grafana's MCP server test suite pass on Windows — [grafana/mcp-grafana#1208](https://github.com/grafana/mcp-grafana/pull/1208), Go, merged the same day.
-- Fixed a build break under `USE_ROSLYN` in Unity MCP and added the regression test that keeps it fixed — [CoplayDev/unity-mcp#1404](https://github.com/CoplayDev/unity-mcp/pull/1404), C#, in review.
+| | My part |
+|---|---|
+| [**SoulLink**](https://apps.apple.com/us/app/soullink-3d-ai-life-sim/id6752530994) — AI companion, live on iOS / Android | Character runtime: streamed voice and LLM telemetry into real-time animation state; led a five-engineer team. C#, Unity. |
+| [**Dungeon Company**](https://store.steampowered.com/app/3775930/Dungeon_Company/) — Steam, shown at XP Game Summit | Founding member; level tooling and gameplay systems. C#, Unity. |
 
-## Products
-
-| Product | My part | Stack |
-|---|---|---|
-| [**SoulLink**](https://apps.apple.com/us/app/soullink-3d-ai-life-sim/id6752530994) — AI companion, live on iOS / Android | Character runtime: streamed voice + LLM telemetry → lip-sync, look-at, animation state; interaction state machines; lead a 5-engineer team | C#, Unity, LLM runtime |
-| [**Dungeon Company**](https://store.steampowered.com/app/3775930/Dungeon_Company/) — Steam, shown at XP Game Summit, 60,000+ playtest builds distributed | Founding member; schema-driven level tooling and gameplay systems | C#, Unity |
-
-## Selected systems work
-
-| Project | Highlights | Stack |
-|---|---|---|
-| [ARPG Demo](https://github.com/comedianhhh/ARPG-Demo) | Authoritative .NET server + Unity client, custom netcode, headless bot load tests, deterministic fixed-point | C#, .NET, Lua |
-| [Space Shooter MP](https://github.com/comedianhhh/SpaceShooterMP) | Custom C++ engine, client-server, client-side prediction | C++17, Asio, UDP |
-| [Computer Graphics Demo](https://github.com/comedianhhh/ComputerGraphicsDemo) | Multi-pass post-processing, normal/specular mapping | C#, MonoGame, HLSL |
-
-## Stack
-
-`Python` `C# / .NET` `TypeScript` `C++` · `FastAPI` `PostgreSQL` `Next.js / React` · `MCP servers` `agent skills & evals` · `Docker` `GitHub Actions` · `Unity`
-
-
+Earlier: an [authoritative .NET server + Unity client](https://github.com/comedianhhh/ARPG-Demo) with custom netcode, and a [C++ client-server engine](https://github.com/comedianhhh/SpaceShooterMP) with client-side prediction.
