@@ -10,12 +10,3 @@
 
 - [CoplayDev/unity-mcp#1404](https://github.com/CoplayDev/unity-mcp/pull/1404) — turning on its Roslyn option broke the build. Removed the missing dependency and added a test so it stays out. C#, merged.
 - [grafana/mcp-grafana#1208](https://github.com/grafana/mcp-grafana/pull/1208) — its tests couldn't run on Windows. Fixed; merged the same day. Go.
-
-## Shipped
-
-| | My part |
-|---|---|
-| [**SoulLink**](https://apps.apple.com/us/app/soullink-3d-ai-life-sim/id6752530994) — AI companion, live on iOS / Android | Character runtime: streamed voice and LLM telemetry into real-time animation state; led a five-engineer team. C#, Unity. |
-| [**Dungeon Company**](https://store.steampowered.com/app/3775930/Dungeon_Company/) — Steam, shown at XP Game Summit | Founding member; level tooling and gameplay systems. C#, Unity. |
-
-Earlier: an [authoritative .NET server + Unity client](https://github.com/comedianhhh/ARPG-Demo) with custom netcode, and a [C++ client-server engine](https://github.com/comedianhhh/SpaceShooterMP) with client-side prediction.
