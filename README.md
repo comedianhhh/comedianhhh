@@ -1,4 +1,3 @@
-[Portfolio](https://comedianhhh.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/nianzhi-li)
 
 ## Things I made
 
